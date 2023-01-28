@@ -27,11 +27,11 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/ryannzx_store'
-global.syt = 'https://www.youtube.com/@ryannnadtprtm'
-global.sgh = 'https://github.com/YannPrtm'
+global.sig = 'https://instagram.com/zvkhalxst'
+global.syt = 'https://youtube.com/'
+global.sgh = 'https://github.com/RyanStore'
 global.sgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
-global.swa = 'wa.me/62823504965320'
+global.swa = 'wa.me/62822522851432'
 global.swb = 'https://discord.gg/'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
@@ -44,18 +44,18 @@ global.ppulsa2 = '-'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62823504965321'
-global.nomorown = '62823504965320'
-global.namebot = 'xʏʟᴏɪᴅ ʙᴏᴛ'
-global.nameown = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛᴢ'
+global.nomorbot = '62822522851439'
+global.nomorown = '62822522851432'
+global.namebot = ' ᯤ XAVIER-MD'
+global.nameown = 'Ryann-'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['62823504965320'],
-  ['62823504965320'],
-  ['62823504965320'],
-  ['62823504965320', 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛ', true]
+  ['62822522851432'],
+  ['62822522851432'],
+  ['62822522851432'],
+  ['62822522851432', 'Ryann-', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -105,41 +105,41 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'ʙʏ xʏʟᴏɪᴅ-ʙᴏᴛᴢ' //Main Watermark
-global.wm2 = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛᴢ'
-global.wm3 = 'xʏʟᴏɪᴅ ʙᴏᴛᴢ | ᴏᴡɴᴇʀ : 082252285143\n✈︎ 2023'
-global.botdate = `⻝ 𝘋 𝘈 𝘛 𝘌 : ${week} ${date}\n⻝ 𝘛𝘪𝘮𝘦: ${wktuwib}`
-global.bottime = `⻝ 𝘛 𝘐 𝘔 𝘌  : ${wktuwib}`
-global.titlebot = `xʏʟᴏɪᴅ | ʙʏ ${global.nameown}`
-global.author = 'xʏʟᴏɪᴅ-ʙᴏᴛ' 
-global.packname = 'ʀʏᴀɴɴ\nᴡᴀ : 62822522851432'
+global.wm = 'By  ᯤ XAVIER-MD' //Main Watermark
+global.wm2 = 'Ryann-'
+global.wm3 = 'ᯤ Xavier-MD| By Ryann-'
+global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
+global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
+global.titlebot = `NexBotz | ʙʏ ${global.nameown}`
+global.author = 'ᯤ Xavier-MD' 
+global.packname = 'By Ryann-'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'Februari 02 2023'
+global.ultahowner = 'Agustus 12 2023'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/47a0c1a961c43abfe5542.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/47a0c1a961c43abfe5542.jpg'
-global.giflogo = 'https://telegra.ph/file/47a0c1a961c43abfe5542.jpg'
-global.thumbbc = 'https://telegra.ph/file/420d1173bf61dd1b1cc86.mp4' //For broadcast
-global.giflogo = 'https://telegra.ph/file/420d1173bf61dd1b1cc86.mp4'
-global.giflogo2 = 'https://telegra.ph/file/47a0c1a961c43abfe5542.jpg'
-global.thumbs = ['https://telegra.ph/file/47a0c1a961c43abfe5542.jpg']
+global.thumb = 'https://telegra.ph/file/96bd6e476255e7a934e3e.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/96bd6e476255e7a934e3e.jpg'
+global.giflogo = 'https://telegra.ph/file/96bd6e476255e7a934e3e.jpg'
+global.thumbbc = 'https://telegra.ph/file/080e16d9199be18d0558b.jpg' //For broadcast
+global.giflogo = 'https://telegra.ph/file/080e16d9199be18d0558b.jpg'
+global.giflogo2 = 'https://telegra.ph/file/96bd6e476255e7a934e3e.jpg'
+global.thumbs = ['https://telegra.ph/file/96bd6e476255e7a934e3e.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
 global.thumbWarn = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
-global.botintro = 'ʜɪ ɪ ᴀᴍ xʏʟᴏɪᴅ ʙᴏᴛ,sᴀʏᴀ sɪᴀᴘ ᴍᴇʟᴀʏᴀɴɪ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ғɪᴛᴜʀ ʏᴀɴɢ sᴀʏᴀ ᴍɪʟɪᴋɪ, sᴇᴘᴇʀᴛɪ ᴍᴇᴍʙᴜᴀᴛ sᴛɪᴋᴇʀ,ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ/ᴀᴜᴅ ᴅʟʟ.ᴋᴇᴛɪᴋ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴀᴋsᴇs'
-global.intro = 'https://telegra.ph/file/47a0c1a961c43abfe5542.jpg'
+global.botintro = 'Hallo, Kenalin saya XavierBotz Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot Whatsapp, Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
+global.intro = 'https://telegra.ph/file/96bd6e476255e7a934e3e.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ ʙᴏᴛ'
-global.umurowner = '24'
-global.asalowner = 'ᴊᴀᴡᴀ ʙᴀʀᴀᴛ,ʙᴀɴᴅᴜɴɢ'
+global.nameowner = 'Ryann-'
+global.umurowner = '23'
+global.asalowner = 'Jawa Barat, Bandung'
 global.nomorowner = 'wa.me/62822522851432'
-global.pacarowner = 'ᴀ'
+global.pacarowner = '-'
 
 /*============== TEXT ==============*/
-global.wait = '```ʟᴏᴀᴅɪɴɢ...```'
-global.eror = '```ɴᴏᴛ ғᴏᴜɴᴅ ᴇʀʀᴏʀ 404 ```'
+global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
+global.eror = '```𝙉𝙤𝙩 𝙁𝙤𝙪𝙣𝙙 𝟰𝟬𝟰 𝙀𝙧𝙤𝙧```'
 
 /*=========== TYPE DOCUMENT ===========*/
 global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -148,7 +148,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/cf9899e70163960c96ed2.jpg'
+global.thumbdoc = 'https://telegra.ph/file/96bd6e476255e7a934e3e.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -383,10 +383,10 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
-global.stickpack = 'ʙʏ xʏʟᴏɪᴅ ʙᴏᴛ'
-global.stickauth = `ᴡᴀ : 0822522851438`
+global.stickpack = 'By XavierBotz-'
+global.stickauth = `Ryann-`
 
-global.multiplier = 27 // The higher, The harder levelup
+global.multiplier = 38 // The higher, The harder levelup
 
 /*============== EMOJI ==============*/
 global.rpg = {
