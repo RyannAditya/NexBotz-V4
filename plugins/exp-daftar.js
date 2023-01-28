@@ -9,50 +9,50 @@ let handler = async function (m, { text, usedPrefix, command }) {
 	let namae = conn.getName(m.sender)
 	const sections = [
 	{
-	title: "📆 sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴀɢᴇ !",
+	title: "📆Select Your Age Here !",
 	rows: [
-	    {title: "📛ʀᴀɴᴅᴏᴍ ʏᴇᴀʀs", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
+	    {title: "📛Random Years", rowId: '.daftar ' + namae + '.' + pickRandom(['30','29','28','27','26','25','24','23','22','21','20','19','18','17','16','15','14','13','12','11','10','9'])}
 	]
     },
     {
 	title: "🎀O L D",
 	rows: [
-	    {title: "🌸30• Years ʚĭɞ", rowId: '.daftar ' + namae + '.30 '},
-	    {title: "🎐29• Years ʚĭɞ", rowId: '.daftar ' + namae + '.29 '},
-	    {title: "🌸28• Years ʚĭɞ", rowId: '.daftar ' + namae + '.28 '},
-	{title: "🎐27• Years ʚĭɞ", rowId: '.daftar ' + namae + '.27 '},
-	{title: "🌸26• Years ʚĭɞ", rowId: '.daftar ' + namae + '.26 '},
-	{title: "🎐25• Years ʚĭɞ", rowId: '.daftar ' + namae + '.25 '},
-	{title: "🌸24• Years ʚĭɞ", rowId: '.daftar ' + namae + '.24 '},
-	{title: "🎐23• Years ʚĭɞ", rowId: '.daftar ' + namae + '.23 '},
-	{title: "🌸22• Years ʚĭɞ", rowId: '.daftar ' + namae + '.22 '},
-	{title: "🎐21• Years ʚĭɞ", rowId: '.daftar ' + namae + '.21 '}
+	    {title: "🌸30• Years ", rowId: '.daftar ' + namae + '.30 '},
+	    {title: "🎐29• Years ", rowId: '.daftar ' + namae + '.29 '},
+	    {title: "🌸28• Years ", rowId: '.daftar ' + namae + '.28 '},
+	{title: "🎐27• Years ", rowId: '.daftar ' + namae + '.27 '},
+	{title: "🌸26• Years ", rowId: '.daftar ' + namae + '.26 '},
+	{title: "🎐25• Years ", rowId: '.daftar ' + namae + '.25 '},
+	{title: "🌸24• Years ", rowId: '.daftar ' + namae + '.24 '},
+	{title: "🎐23• Years ", rowId: '.daftar ' + namae + '.23 '},
+	{title: "🌸22• Years ", rowId: '.daftar ' + namae + '.22 '},
+	{title: "🎐21• Years ", rowId: '.daftar ' + namae + '.21 '}
 	]
     },
     {
 	title: "🎀Y O U N G",
 	rows: [
-	    {title: "🌸20• Years ʚĭɞ", rowId: '.daftar ' + namae + '.20 '},
-	    {title: "🎐19• Years ʚĭɞ", rowId: '.daftar ' + namae + '.19 '},
-	    {title: "🌸18• Years ʚĭɞ", rowId: '.daftar ' + namae + '.18 '},
-	{title: "🎐17• Years ʚĭɞ", rowId: '.daftar ' + namae + '.17 '},
-	{title: "🌸16• Years ʚĭɞ", rowId: '.daftar ' + namae + '.16 '},
-	{title: "🎐15• Years ʚĭɞ", rowId: '.daftar ' + namae + '.15 '},
-	{title: "🌸14• Years ʚĭɞ", rowId: '.daftar ' + namae + '.14 '},
-	{title: "🎐13• Years ʚĭɞ", rowId: '.daftar ' + namae + '.13 '},
-	{title: "🌸12• Years ʚĭɞ", rowId: '.daftar ' + namae + '.12 '},
-	{title: "🎐11• Years ʚĭɞ", rowId: '.daftar ' + namae + '.11 '},
-	{title: "🌸10• Years ʚĭɞ", rowId: '.daftar ' + namae + '.10 '},
-	{title: "🎐9• Years ʚĭɞ", rowId: '.daftar ' + namae + '.9 '}
+	    {title: "🌸20• Years ", rowId: '.daftar ' + namae + '.20 '},
+	    {title: "🎐19• Years ", rowId: '.daftar ' + namae + '.19 '},
+	    {title: "🌸18• Years ", rowId: '.daftar ' + namae + '.18 '},
+	{title: "🎐17• Years ", rowId: '.daftar ' + namae + '.17 '},
+	{title: "🌸16• Years ", rowId: '.daftar ' + namae + '.16 '},
+	{title: "🎐15• Years ", rowId: '.daftar ' + namae + '.15 '},
+	{title: "🌸14• Years ", rowId: '.daftar ' + namae + '.14 '},
+	{title: "🎐13• Years ", rowId: '.daftar ' + namae + '.13 '},
+	{title: "🌸12• Years ", rowId: '.daftar ' + namae + '.12 '},
+	{title: "🎐11• Years ", rowId: '.daftar ' + namae + '.11 '},
+	{title: "🌸10• Years ", rowId: '.daftar ' + namae + '.10 '},
+	{title: "🎐9• Years ", rowId: '.daftar ' + namae + '.9 '}
 	]
     },
 ]
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  xʏʟᴏɪᴅ ʙᴏᴛ\nsᴄ ʙʏ : ᴘᴜᴛʀᴀᴍᴏᴅᴢ\nʀᴇᴄᴏᴅᴇ ʙʏ xʏʟᴏɪᴅ ᴛᴇᴀᴍ`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\n⚘ ᴄʀᴇᴀᴛᴇ ʙʏ ᴹᴿ᭄ PutraModz ×፝֟͜×`,
   title: "▢━━━━「 Registration 」━━━━▢",
-  buttonText: "ʀᴇɢɪsᴛᴇʀ",
+  buttonText: "ഒ Register ഒ",
   sections
 }
 
@@ -81,10 +81,10 @@ const listMessage = {
 │▸ *sɴ:* ${sn}
 ╰═┅═━––––––๑
 
-xʏʟᴏɪᴅ ʙᴏᴛ
+Author : Ryann Aditya Pratama
 `
   let buttonMessage= {
-'document':{'url':'https://youtu.be/QOm1gEFbMdI'},
+'document':{'url':'https://youtu.be/'},
 'mimetype':global.ddocx,
 'fileName':'▢━━━━「 Registration 」━━━━▢',
 'fileLength':fsizedoc,
@@ -93,18 +93,18 @@ xʏʟᴏɪᴅ ʙᴏᴛ
 'forwardingScore':555,
 'isForwarded':true,
 'externalAdReply':{
-'mediaUrl':'https://youtu.be/6fRdzk48L4g',
+'mediaUrl':'https://youtu.be/',
 'mediaType':2,
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
 'thumbnail':await(await fetch('https://telegra.ph/file/beec58efa5d3821dea224.jpg')).buffer(),
-'sourceUrl':'https://youtu.be/QOm1gEFbMdI'}},
+'sourceUrl':'https://youtu.be/'}},
 'caption':cap,
 'footer':botdate,
 'buttons':[
-{'buttonId':'.menu','buttonText':{'displayText':'ᴍᴇɴᴜ'},'type':1},
-{'buttonId':'.salken','buttonText':{'displayText':'ʜɪɪ'},'type':1}
+{'buttonId':'.menu','buttonText':{'displayText':'Menu'},'type':1},
+{'buttonId':'.salken','buttonText':{'displayText':'Halo'},'type':1}
 ],
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
